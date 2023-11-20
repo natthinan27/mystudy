@@ -6,8 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 st.header("")
 
-st.image("./img/s1.jpg")
-
+st.image(".pages/img/s1.jpg")
 
 html_8 = """
 <div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
