@@ -29,7 +29,7 @@ st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
 
 
-.aside .logo a::before
+.aside .logo :before
 {
     content: '';
     position: absolute;
