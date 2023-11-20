@@ -40,3 +40,13 @@ st.header("Show chart Gender and Age")
 chart_data=pd.read_csv("./data/shopping22.csv")
 group_age = df.groupby(['Age', 'Gender']).size().reset_index(name='count')
 st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400)
+
+st.header("Show chart Gender and Frequency of Purchases")
+chart_data=pd.read_csv("./data/shopping22.csv")
+grouped_data = df.groupby(['Frequency of Purchases', 'Gender']).size().reset_index(name='count')
+pivot_table = pd.pivot_table(grouped_data, values='count', index='Frequency of Purchases', columns='Gender', fill_value=0)
+fig, ax = plt.subplots(figsize=(15, 7))
+colors = ['#66ff99', '#ccccff','#ffff66','#66ffcc','#ffb3e6','#ff884d','#1a53ff']
+pivot_table.plot.pie(subplots=True, autopct='%1.1f%%', ax=ax, colors=colors)
+plt.axis('equal')
+st.pyplot(fig)
