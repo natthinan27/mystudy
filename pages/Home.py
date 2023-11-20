@@ -10,8 +10,8 @@ st.set_page_config(
 st.sidebar.success("เลือกรายการด้านบน.")
 
 html_1 = """
-<div style="background-color:#dab3ff;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<center><h5>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน111</h5></center>
+<div style="background-color:#dab3ff;padding:15px;border-radius:10px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน</h5></center>
 <center><h5>Analyzes Consumer Behavior by K-means clustering</h5></center>
 </div>
 </div>
