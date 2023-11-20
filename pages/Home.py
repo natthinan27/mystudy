@@ -28,5 +28,33 @@ html_2 = """
 st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
 
-
+.aside .logo a::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+.aside .logo a::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
+html_3 = """
+<div style="background-color:#0E1117;border-top: 3px solid #ffffff;">
+<center><h4 style="text-indent: 60%;">Wiriya Hemmala 64/44 007</h4></center>
+</div>
+"""
+st.markdown(html_3, unsafe_allow_html=True)
+st.markdown("")
 
