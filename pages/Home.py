@@ -7,10 +7,9 @@ st.set_page_config(
     page_title="การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน",
     page_icon= ":bar_chart:",
 )
-st.sidebar.success("เลือกรายการด้านบน.")
 
 html_1 = """
-<div style="background-color:#dab3ff;padding:15px;border-radius:10px 10px 10px 10px;border-style:'solid';border-color:black">
+<div style="background-color:#dab3ff;padding:10px;border-radius:10px 10px 10px 10px;border-style:'solid';border-color:black">
 <center><h5>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน</h5></center>
 <center><h5>Analyzes Consumer Behavior by K-means clustering</h5></center>
 </div>
@@ -18,4 +17,16 @@ html_1 = """
 """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
+
+html_2 = """
+<div style="background-color:#dab3ff;padding:5px;border-radius:5px 5px 5px 5px;border-style:'solid';border-color:black">
+<center><h5>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน</h5></center>
+<center><h5>Analyzes Consumer Behavior by K-means clustering</h5></center>
+</div>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")
+
+
 
