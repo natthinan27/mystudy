@@ -28,18 +28,6 @@ html_2 = """
 st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
 
-
-.aside .logo :before
-{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottom: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color);
-    bottom: 0;
-    left: 0;
-}
 .aside .logo a::after
 {
     content: '';
