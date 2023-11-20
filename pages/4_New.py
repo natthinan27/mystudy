@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 st.header("Show Data Index ")
 df=pd.read_csv("./Data/shopping22.csv")
-st.write(df.head(10))
+st.write(df.head(11))
 
 st.header("Show chart Gender and Size")
 chart_data=pd.read_csv("./Data/shopping22.csv")
