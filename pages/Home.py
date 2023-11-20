@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon= ":bar_chart:",
 )
 html_1 = """
-<div style="background-color:#433A4A;padding:5px;border-radius:5px;border-bottom: 5px solid #ffffff;border-top: 5px solid #ffffff;">
+<div style="background-color:#6A5683;padding:5px;border-radius:5px;border-bottom: 5px solid #ffffff;border-top: 5px solid #ffffff;">
 <center><h4>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน</h4><h5>Analyzes Consumer Behavior by K-means clustering</h5></center>
 </div>
 """
