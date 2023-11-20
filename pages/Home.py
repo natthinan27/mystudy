@@ -17,7 +17,7 @@ st.markdown("")
 
 
 html_2 = """
-<div style="background-color:#28004d;padding:1px;border-radius:1px 1px 1px 1px;border-style:'solid';border-color:black">
+<div style="background-color:#32174d;padding:1px;border-radius:1px 1px 1px 1px;border-style:'solid';border-color:black">
 <center><h5>การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน</h5></center>
 <center><h5>Analyzes Consumer Behavior by K-means clustering</h5></center>
 </div>
