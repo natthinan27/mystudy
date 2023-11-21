@@ -6,8 +6,17 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.header("")
+col1, col2, col3 = st.columns([1.5, 6, 1])
 
-st.image("./img/s3.jpg")
+with col1:
+    st.write("") 
+
+with col2:
+    st.image("./img/s3.jpg")
+
+with col3:
+    st.write("")
+
 
 
 html_8 = """
