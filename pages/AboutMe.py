@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.header("")
-col1, col2, col3 = st.columns([1.5, 6, 1])
+col1, col2, col3 = st.columns([2, 6, 1])
 
 with col1:
     st.write("") 
