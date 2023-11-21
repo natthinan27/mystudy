@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 st.header("")
 
-st.image("./img/s2.jpg")
+st.image("./img/s3.jpg")
 
 
 html_8 = """
